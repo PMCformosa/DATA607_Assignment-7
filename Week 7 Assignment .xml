@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office User</Author>
+  <LastAuthor>Microsoft Office User</LastAuthor>
+  <Created>2023-03-12T22:35:04Z</Created>
+  <LastSaved>2023-03-13T00:34:51Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14800</WindowHeight>
+  <WindowWidth>25320</WindowWidth>
+  <WindowTopX>1240</WindowTopX>
+  <WindowTopY>620</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#0F1111"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="198"/>
+   <Column ss:AutoFitWidth="0" ss:Width="223"/>
+   <Column ss:AutoFitWidth="0" ss:Width="89"/>
+   <Column ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:AutoFitWidth="0" ss:Width="48"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s16"><Data ss:Type="String">Title </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Author </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Publisher</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Price</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Pages </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">The Death and Life of Great American Cities</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Jane Jacobs</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Modern Library</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">458</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Urban Forms</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ivor Samuels, Phillippe Panerai, Jean Castex</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Architectural Press</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">240</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Rich Boy</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Sharon Pomerantz</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Twelve </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">520</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Zoom>214</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
