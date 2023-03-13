@@ -1,0 +1,65 @@
+---
+title: "Week7 _ Assignment"
+author: "Pei-Ming Chen"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+---
+Assignment 7 : Pick three of your favorite books on one of your favorite subjects. At least one of the books should have more
+than one author. For each book, include the title, authors, and two or three other attributes that you find interesting. Take the information that you’ve selected about these three books, and separately create three files which store the book’s information in HTML (using an html table), XML, and JSON formats (e.g. “books.html”,“books.xml”, and “books.json”). To help you better understand the different file structures, I’d prefer that you create each of these files “by hand” unless you’re already very comfortable with the file formats.
+
+```{r load-packages, message=FALSE}
+library(RCurl)
+library(rjson)
+library(jsonlite)
+library(DT)
+library(XML)
+```
+
+### Exercise 1
+
+Insert any text here.
+
+```{r}
+Bookdata_html <-"https://raw.githubusercontent.com/PMCformosa/DATA607_Assignment-7/main/week7_assignment.html"
+
+Bookdata_html2 <- getURL(Bookdata_html)
+
+Bookdata_html3 <- readHTMLTable(Bookdata_html2)
+
+Bookschosen <- Bookdata_html3[[1]]
+
+datatable(Bookschosen)
+
+```
+
+### Exercise 2
+```{r}
+str(Bookschosen)
+```
+```{r}
+Bookschosen_j <- "https://raw.githubusercontent.com/PMCformosa/DATA607_Assignment-7/main/csvjson.json"
+
+Bookschosen_j  <- getURLContent(Bookschosen_j)
+
+BooksJ = fromJSON(Bookschosen_j)
+BooksJson <- data.frame(BooksJ)
+datatable(BooksJson)
+
+```
+
+```{r}
+Bookschosen_xml <-"https://raw.githubusercontent.com/PMCformosa/DATA607_Assignment-7/main/AWeek%207%20Assignment.xml"
+
+BookchosenB <- getURLContent(Bookschosen_xml)
+
+Bookschosen_xml <- xmlTreeParse(BookchosenB)
+
+xml_A <- xmlRoot(Bookschosen_xml)
+xml_A <- xmlSApply(xml_A, function(y) xmlSApply(y, xmlValue))
+
+xml_A_df <- data.frame(t(xml_A), row.names= NULL)
+
+datatable (xml_A_df)
+```
