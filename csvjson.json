@@ -1,0 +1,26 @@
+[
+  {
+    "": 1,
+    "Title": "The Death and Life of Great American Cities",
+    "Author": "Jane Jacobs",
+    "Publisher": "Modern Library",
+    "Price": 16,
+    "Pages": 458
+  },
+  {
+    "": 2,
+    "Title": "Urban Forms",
+    "Author": "Ivor Samuels, Phillippe Panerai, Jean Castex, Jean Charles Depaule",
+    "Publisher": "Architectural Press",
+    "Price": 140,
+    "Pages": 240
+  },
+  {
+    "": 3,
+    "Title": "Rich Boy",
+    "Author": "Sharon Pomerantz",
+    "Publisher": "Twelve",
+    "Price": 10,
+    "Pages": 520
+  }
+]
