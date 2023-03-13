@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<booklist>
+<book1>
+<Title>The Death and Life of Great American Cities</Title>
+<Author>Jane Jacobs</Author>
+<Publisher>Modern Library</Publisher>
+<Price>16</Price>
+    <Pages>458</Pages>
+  </book1>
+  <book2>
+    <Title>The Glass Castle</Title>
+    <Author>Ivor Samuels, Phillippe Panerai, Jean Castex</Author>
+    <Publisher>Architectural Press</Publisher>
+	<Price>140</Price>
+    <Pages>240</Pages>
+  </book2>
+  <book3>
+   <Title>How to Talk So Kids Will Listen and Listen So Kids Will Talk</Title>
+   <Author>Sharon Pomerantz</Author>
+   <Publisher>Twelve</Publisher>
+   <Price>10</Price>
+   <Pages>520</Pages>
+  </book3>
+</booklist>
